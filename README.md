@@ -1,3 +1,12 @@
+## BoGoodSki 2020
+
+This is a personal sandbox for me to create my own little playground on the internet. 
+
+
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
