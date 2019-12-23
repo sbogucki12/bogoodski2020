@@ -2,29 +2,28 @@ import React from 'react';
 //import { Link } from "react-router-dom";
 import './home.css';
 
-function Home() {
-  // Declare a new state variable, which we'll call "count" 
+const Home = () => {
+  
   return (
     <div className="container">
-      <div className="item">
-        <h1>Home</h1>
-          <p>For now, I am going to:</p>
-          <ol>
-            <li>
-              Build a .NET Core RESTful API
-            </li>
-            <li>
-              Place a button here to call the API
-            </li>
-            <li>
-              Display the API dummy data
-            </li>
-          </ol>          
-          <center>
-            <button disabled>
-              Click!
-            </button>
-          </center>
+      <div className="item-a">
+        <div className="item-a-a">
+          <i className="fas fa-running" style={{"padding": "1em"}}></i>          
+            BoGoodSki.com         
+        </div>
+        <div className="item-a-b">
+          <div className="headerButton">
+            Old Site
+          </div>           
+        </div>
+        <div className="item-a-c">
+          <div className="headerButton">
+            Home
+          </div> 
+        </div>
+      </div>
+      <div className="item-b">
+        <h1>Home</h1>          
       </div>
       
       {/*<nav>
