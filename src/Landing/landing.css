@@ -3,7 +3,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column; 
-    height: 90vh;   
+    height: 80vh;   
 }
 
 .logo-text {
@@ -11,7 +11,8 @@
 }
 
 .logo-caption {
-    margin-left: 40%;
+    margin-left: 30%;
     margin-top: -1%;
+    font-family: 'Saira Condensed', sans-serif;
 }
 

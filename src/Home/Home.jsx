@@ -14,7 +14,7 @@ const Home = () => {
         </div>
         <div className="item-a-b">
           <div className="headerButton">
-            Old Site
+              Old Site
           </div>           
         </div>
         <div className="item-a-c">
@@ -27,7 +27,13 @@ const Home = () => {
       <div className="item-b-b">
         <Landing />         
       </div>
-      <div className="item-b-c" />      
+      <div className="item-b-c" /> 
+      <div className="item-c">
+        <p className="footerButton">
+          About
+        </p>
+      </div>
+           
       {/*<nav>
           <ul>
             <li>

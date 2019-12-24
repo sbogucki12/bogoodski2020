@@ -10,7 +10,7 @@ const Landing = () => {
         </div>
         <p className="logo-caption">
             <i className="fas fa-running" style={{"paddingRight": "2px"}}></i>
-            Code Runner
+            {`{ Code Runner }`}
         </p>
       </div>
     
