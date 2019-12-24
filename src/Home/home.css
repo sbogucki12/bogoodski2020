@@ -1,15 +1,14 @@
-.container {
-    display: grid;
-    min-width: 100vw;    
+.container {    
+    display: grid;   
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 10vh 80vh 10vh;
+    grid-template-rows: 8vh 84vh 8vh;
     grid-template-areas: 
       "header header header"
       "body body body"
       "footer footer footer"
   }
 
-.item-a {
+.item-a {  
   grid-area: header;
   background-color: black;
   color: white;
@@ -17,7 +16,7 @@
   grid-template-columns: 60% 25% 15%;
 }
 
-.item-a-a {
+.item-a-a {  
   grid-column: 1 / span 1;  
   align-self: center;
   justify-self: left;
@@ -45,6 +44,8 @@
 
 .item-b {
   grid-area: body;
+  background-color: white;
+  height: 100%;  
   display: flex;
   justify-content: center;
   align-items: center;
@@ -58,7 +59,7 @@
 }
 
 .item-b-c {
-  grid-area: right;
+  
 }
 
 .item-c {
