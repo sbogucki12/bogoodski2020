@@ -1,12 +1,11 @@
 .container {
     display: grid;
-    min-width: 100vw;
-    min-height: 100vh;
+    min-width: 100vw;    
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: auto 80% auto;
+    grid-template-rows: 10vh 80vh 10vh;
     grid-template-areas: 
       "header header header"
-      "left main right"
+      "body body body"
       "footer footer footer"
   }
 
@@ -22,7 +21,6 @@
   grid-column: 1 / span 1;  
   align-self: center;
   justify-self: left;
-  
   font-family: 'Orbitron', sans-serif; 
 }
 
@@ -45,8 +43,15 @@
   font-style: italic;
 }
 
+.item-b {
+  grid-area: body;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .item-b-a {
-  grid-area: left;
+  
 }
 .item-b-b {
   grid-area: main;  
@@ -58,8 +63,7 @@
 
 .item-c {
   grid-area: footer;
-  background-color: black;
-  
+  background-color: black;  
   display: grid;
   justify-content: center;
   align-content: center;

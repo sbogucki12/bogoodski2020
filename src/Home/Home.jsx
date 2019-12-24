@@ -1,10 +1,13 @@
-import React from 'react';
+import React, { useState } from 'react';
 //import { Link } from "react-router-dom";
 import Landing from '../Landing/Landing';
+import About from '../About/About';
 import './home.css';
 
 const Home = () => {
-  
+
+  const [view, setView] = useState(<About />);    
+ 
   return (
     <div className="container">
       <div className="item-a">
@@ -23,11 +26,11 @@ const Home = () => {
           </div> 
         </div>
       </div>
-      <div className="item-b-a" />
-      <div className="item-b-b">
-        <Landing />         
-      </div>
-      <div className="item-b-c" /> 
+      <section className="item-b">
+        <div className="item-b-a">
+          LANDING
+        </div>
+      </section>
       <div className="item-c">
         <p className="footerButton">
           About
