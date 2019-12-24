@@ -1,10 +1,11 @@
 .container {
     display: grid;
+    min-width: 100vw;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto;
     grid-template-areas: 
       "header header header"
-      "main main main"
+      "left main right"
   }
 
 .item-a {
@@ -38,10 +39,15 @@
   font-family: 'Roboto', sans-serif;
 }
 
-.item-b {
+.item-b-a {
+  grid-area: left;
+}
+.item-b-b {
   grid-area: main;  
-  justify-self: center;
-  align-self: center;
+}
+
+.item-b-c {
+  grid-area: right;
 }
 
 .headerButton:hover {

@@ -1,5 +1,6 @@
 import React from 'react';
 //import { Link } from "react-router-dom";
+import Landing from '../Landing/Landing';
 import './home.css';
 
 const Home = () => {
@@ -22,10 +23,11 @@ const Home = () => {
           </div> 
         </div>
       </div>
-      <div className="item-b">
-        <h1>Home</h1>          
+      <div className="item-b-a" />
+      <div className="item-b-b">
+        <Landing />         
       </div>
-      
+      <div className="item-b-c" />      
       {/*<nav>
           <ul>
             <li>
