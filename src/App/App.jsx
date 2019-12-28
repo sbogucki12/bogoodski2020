@@ -7,6 +7,7 @@ import {
 import Home from '../Home/Home';
 import About from '../About/About';
 import './app.css';
+import * as constants from '../Utils/consts';
 
 export default function App() {
   return (
@@ -14,19 +15,17 @@ export default function App() {
       <div className="item-a">
         <div className="item-a-a">
           <i className="fas fa-running" style={{"padding": "1em"}}></i>          
-            BoGoodSki.com         
+            {constants.BOGOODSKIDOTCOM}        
         </div>
         <div className="item-a-b">
           <div className="headerButton">
-              Old Site
+            {constants.OLDSITE}
           </div>           
         </div>
         <div className="item-a-c">
         <Link to="/" >
           <div className="headerButton" >
-           
-            Home
-            
+            {constants.HOME}
           </div>
           </Link>
         </div>
@@ -44,15 +43,13 @@ export default function App() {
           </Route>
         </Switch>
         </div>
-        
-        
       </section>
       <div className="item-c">
-        <p className="footerButton">
-          <Link to="/about" style={{"textDecoration": "none"}}>
-            About
-          </Link>
-        </p>
+        <Link to="/about" style={{"textDecoration": "none"}}>
+          <p className="footerButton">
+            {constants.ABOUT}
+          </p>
+        </Link>
       </div>
     </div>
   );

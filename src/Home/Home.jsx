@@ -1,13 +1,34 @@
-import React from 'react';
-import Landing from '../Landing/Landing';
+import React, { Fragment } from 'react';
 import './home.css';
+import * as constants from '../Utils/consts';
 
-const Home = () => {   
- 
+const Home = () => {
+  
   return (
-    <div>
-      <Landing />
-    </div>   
+    <Fragment className="home-container">
+      <div>
+        <div>
+            <h1 className="logo-text">
+              {constants.BOGOODSKI}
+            </h1>  
+        </div>
+        <p className="logo-caption">
+            <i className="fas fa-running" style={{"paddingRight": "2px"}}></i>
+            {constants.LOGOCAPTION}
+        </p>
+      </div>
+      <div className="button-row-container">
+        <div className="home-btn">
+          {constants.RUNLOGOLD}
+        </div>
+        <div className="home-btn">
+          {constants.RUNLOGNEW}
+        </div>
+        <div className="home-btn">
+          {constants.DJBOGOODSKI}
+        </div>
+      </div>
+    </Fragment>
   );
 };
 
