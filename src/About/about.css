@@ -2,5 +2,43 @@
     display: flex;    
     justify-content: center;
     align-items: center;
-    width: 100%;    
+    width: 100%;
+    margin-top: 5%;             
+}
+
+.about-border {
+    border: 5px solid black;
+    border-radius: 5%;
+    display: flex;    
+    justify-content: center;
+    align-items: center;
+    width: 90vw;
+    flex-direction: column; 
+    margin-bottom: 5%; 
+}
+
+.about-text-row {
+    display: flex;    
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+    font-size: smaller;
+    max-width: 90%;
+    text-align: justify;
+    flex-direction: column;
+    font-family: 'Saira Condensed', sans-serif;
+}
+
+.about-socialMedia-row {
+    display: flex;    
+    justify-content: center;
+    align-items: center; 
+    flex-wrap: wrap; 
+    max-width: 90%;  
+}
+
+.socialIcons {
+    max-width: 32px;
+    max-height: 32px;
+    padding: 10%;
 }

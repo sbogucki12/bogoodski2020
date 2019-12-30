@@ -6,15 +6,25 @@ const ButtonRow = () => {
   
   return (
     <div className="button-row-container">
-        <div className="home-btn">
-          {constants.RUNLOGOLD}
-        </div>
+      <a
+        href={constants.RUNLOGOLDURL}
+        target="_blank"
+        rel="noreferrer noopener">
+          <div className="home-btn">
+            {constants.RUNLOGOLD}
+          </div>
+        </a>
         <div className="home-btn">
           {constants.RUNLOGNEW}
         </div>
-        <div className="home-btn">
-          {constants.DJBOGOODSKI}
-        </div>
+        <a 
+          href={constants.DJBOGOODSKIURL}
+          target="_blank"
+          rel="noreferrer noopener">
+            <div className="home-btn">
+              {constants.DJBOGOODSKI}
+            </div>
+          </a>
       </div>
   );
 };

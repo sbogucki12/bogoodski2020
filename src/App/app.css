@@ -1,7 +1,8 @@
 .container {    
-    display: grid;   
+    display: grid;
+    min-height: 100vh;    
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 10vh 80vh 10vh;
+    grid-template-rows: 10vh auto 10vh;
     grid-template-areas: 
       "header header header"
       ". body ."
@@ -54,9 +55,9 @@
 .item-c {
   grid-area: footer;
   background-color: black;  
-  display: grid;
+  display: flex;  
   justify-content: center;
-  align-content: center;   
+  align-items: center;      
 }
 
 .headerButton {
@@ -71,7 +72,7 @@
   background-color: white; 
   border: none;
   color: black;
-  padding: 15px 32px;
+  padding: 10px 24px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -79,6 +80,7 @@
   cursor: pointer;  
   border-radius: 5%;
   font-family: 'Saira Condensed', sans-serif; 
+  margin: 0;  
 }
 
 .footerButton:hover {

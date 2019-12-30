@@ -21,9 +21,14 @@ const App = () => {
             {constants.BOGOODSKIDOTCOM}        
         </div>
         <div className="item-a-b">
-          <div className="headerButton">
-            {constants.OLDSITE}
-          </div>           
+          <a
+            href={constants.OLDSITEURL}
+            target="_blank"
+            rel="noreferrer noopener">
+              <div className="headerButton">
+                {constants.OLDSITE}
+              </div>
+            </a>
         </div>
         <div className="item-a-c">
         <Link to='/' onClick={() => setShowMenu(false)} >
@@ -53,7 +58,7 @@ const App = () => {
             {constants.ABOUT}
           </p>
         </Link>
-      </div>
+      </div>     
     </div>
   );
 }
