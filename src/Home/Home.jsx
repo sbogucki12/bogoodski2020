@@ -1,12 +1,23 @@
 import React, { Fragment } from 'react';
 import './home.css';
 import * as constants from '../Utils/consts';
+import ButtonRow from './ButtonRow/ButtonRow';
+import MenuButton from './MenuButton/MenuButton';
 
-const Home = () => {
+const Home = props => {
+
+  const setShowMenu = props.setShowMenu;
+  let showMenu = props.showMenu;
+
+  let view = <MenuButton onSetShowMenu={setShowMenu}/>;
+
+  if(showMenu === true){
+    view = <ButtonRow />
+  }
   
   return (
-    <Fragment className="home-container">
-      <div>
+    <Fragment >
+      <div className="home-container">
         <div>
             <h1 className="logo-text">
               {constants.BOGOODSKI}
@@ -17,17 +28,7 @@ const Home = () => {
             {constants.LOGOCAPTION}
         </p>
       </div>
-      <div className="button-row-container">
-        <div className="home-btn">
-          {constants.RUNLOGOLD}
-        </div>
-        <div className="home-btn">
-          {constants.RUNLOGNEW}
-        </div>
-        <div className="home-btn">
-          {constants.DJBOGOODSKI}
-        </div>
-      </div>
+      {view}
     </Fragment>
   );
 };

@@ -8,7 +8,9 @@ export const DJBOGOODSKI = "DJ BoGoodSki";
 
 export const HOME = "Home";
 
-export const LOGOCAPTION = "{ Code Runner }"
+export const LOGOCAPTION = "{ Code Runner }";
+
+export const MENU = "Menu";
 
 export const OLDSITE = "Old Site";
 

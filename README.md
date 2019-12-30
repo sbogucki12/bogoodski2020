@@ -2,6 +2,19 @@
 
 This is a personal sandbox for me to create my own little playground on the internet. 
 
+
+### Dec 30, 2019: 
+
+<p align="center">
+	<img src="http://g.recordit.co/q1vNbmpKaE.gif" alt="December 30, 2019">
+</p>
+
+<p>
+<i>That gif may also be viewed </i> <a href="http://g.recordit.co/q1vNbmpKaE.gif" target="_blank" rel="noreferrer noopener">HERE</a>.
+</p>
+
+
+
 ### Dec 27, 2019: 
 
 <p align="center">

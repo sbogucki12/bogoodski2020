@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import {
   Switch,
   Route, 
@@ -9,7 +9,10 @@ import About from '../About/About';
 import './app.css';
 import * as constants from '../Utils/consts';
 
-export default function App() {
+const App = () => {
+
+  const [showMenu, setShowMenu] = useState(false);
+
   return (
     <div className="container">
       <div className="item-a">
@@ -23,8 +26,8 @@ export default function App() {
           </div>           
         </div>
         <div className="item-a-c">
-        <Link to="/" >
-          <div className="headerButton" >
+        <Link to='/' onClick={() => setShowMenu(false)} >
+          <div className="headerButton">
             {constants.HOME}
           </div>
           </Link>
@@ -39,7 +42,7 @@ export default function App() {
             <About />
           </Route>         
           <Route exact path="/">
-            <Home />
+            <Home showMenu={showMenu} setShowMenu={setShowMenu}/>
           </Route>
         </Switch>
         </div>
@@ -54,3 +57,5 @@ export default function App() {
     </div>
   );
 }
+
+export default App;
