@@ -8,11 +8,13 @@ import Home from '../Home/Home';
 import About from '../About/About';
 import './app.css';
 import * as constants from '../Utils/consts';
+import AboutBtn from "./AboutBtn/AboutBtn";
 
 const App = () => {
 
-  const [showMenu, setShowMenu] = useState(false);
-
+  const [showMenu, setShowMenu] = useState(false); 
+  
+  
   return (
     <div className="container">
       <div className="item-a">
@@ -40,24 +42,18 @@ const App = () => {
       </div>
       <section className="item-b">
         <div>
-        {/* A <Switch> looks through its children <Route>s and
-            renders the first one that matches the current URL. */}
-        <Switch> 
-          <Route exact path="/about">
-            <About />
-          </Route>         
-          <Route exact path="/">
-            <Home showMenu={showMenu} setShowMenu={setShowMenu}/>
-          </Route>
-        </Switch>
+          <Switch> 
+            <Route exact path="/about">
+              <About />
+            </Route>         
+            <Route exact path="/">
+              <Home showMenu={showMenu} setShowMenu={setShowMenu}/>
+            </Route>
+          </Switch>
         </div>
       </section>
       <div className="item-c">
-        <Link to="/about" style={{"textDecoration": "none"}}>
-          <p className="footerButton">
-            {constants.ABOUT}
-          </p>
-        </Link>
+        <AboutBtn />
       </div>     
     </div>
   );

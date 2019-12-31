@@ -30,15 +30,15 @@
 }
 
 .about-socialMedia-row {
-    display: flex;    
+    width: 80%;
+    display: grid;   
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    justify-items: center;
     justify-content: center;
-    align-items: center; 
-    flex-wrap: wrap; 
-    max-width: 90%;  
+    padding-bottom: 3%;
 }
 
 .socialIcons {
     max-width: 32px;
     max-height: 32px;
-    padding: 10%;
 }

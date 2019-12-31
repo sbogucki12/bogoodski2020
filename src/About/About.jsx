@@ -2,7 +2,7 @@ import React from 'react';
 import './about.css';
 import socialIcons from './SocialIcons/socialIcons';
 
-const About = () => {
+const About = () => { 
   
   const showIcons = socialIcons.map(icon => {    
     return (
@@ -12,7 +12,7 @@ const About = () => {
           key={icon.id}
           rel="noreferrer noopener"
         >
-            <img src={icon.icon} alt={icon.alt} className="socialIcons" />
+          <img src={icon.icon} alt={icon.alt} className="socialIcons" />
         </a>
     )
 })
