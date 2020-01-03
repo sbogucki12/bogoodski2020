@@ -9,11 +9,11 @@ import About from '../About/About';
 import './app.css';
 import * as constants from '../Utils/consts';
 import AboutBtn from "./AboutBtn/AboutBtn";
+import RunLogHome from '../RunLog/RunLogHome';
 
 const App = () => {
 
-  const [showMenu, setShowMenu] = useState(false); 
-  
+  const [showMenu, setShowMenu] = useState(false);
   
   return (
     <div className="container">
@@ -43,6 +43,9 @@ const App = () => {
       <section className="item-b">
         <div>
           <Switch> 
+            <Route exact path="/runlog">
+              <RunLogHome />
+            </Route>         
             <Route exact path="/about">
               <About />
             </Route>         

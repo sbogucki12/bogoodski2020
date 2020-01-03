@@ -3,6 +3,18 @@
 This is a personal sandbox for me to create my own little playground on the internet. 
 
 
+
+### Jan. 3, 2020: 
+
+<p align="center">
+	<img src="https://i.imgur.com/IiCmxaE.gif" alt="January 3, 2020">
+</p>
+
+<p>
+	<i>That gif may also be viewed </i> <a href="https://i.imgur.com/IiCmxaE.gif" target="_blank" rel="noreferrer noopener">HERE</a>.
+</p>
+
+
 ### Dec 30, 2019: 
 
 <p align="center">
@@ -10,7 +22,7 @@ This is a personal sandbox for me to create my own little playground on the inte
 </p>
 
 <p>
-<i>That gif may also be viewed </i> <a href="http://g.recordit.co/i8hGDp9KQ4.gif" target="_blank" rel="noreferrer noopener">HERE</a>.
+	<i>That gif may also be viewed </i> <a href="http://g.recordit.co/i8hGDp9KQ4.gif" target="_blank" rel="noreferrer noopener">HERE</a>.
 </p>
 
 
@@ -22,7 +34,7 @@ This is a personal sandbox for me to create my own little playground on the inte
 </p>
 
 <p>
-<i>That gif may also be viewed </i> <a href="http://g.recordit.co/IEu7twiFhu.gif" target="_blank" rel="noreferrer noopener">HERE</a>.
+	<i>That gif may also be viewed </i> <a href="http://g.recordit.co/IEu7twiFhu.gif" target="_blank" rel="noreferrer noopener">HERE</a>.
 </p>
 
 
@@ -34,7 +46,7 @@ This is a personal sandbox for me to create my own little playground on the inte
 </p>
 
 <p>
-<i>That gif may also be viewed </i> <a href="http://g.recordit.co/JyjduzeJDt.gif" target="_blank" rel="noreferrer noopener">HERE</a>.
+	<i>That gif may also be viewed </i> <a href="http://g.recordit.co/JyjduzeJDt.gif" target="_blank" rel="noreferrer noopener">HERE</a>.
 </p>
 
 

@@ -1,5 +1,7 @@
 export const ABOUT = "About";
 
+export const ADDRUN = "Add Run";
+
 export const BOGOODSKI = "BoGoodSki";
 
 export const BOGOODSKIDOTCOM = "BoGoodSki.com";
@@ -24,11 +26,23 @@ export const OLDSITE = "Old Site";
 
 export const OLDSITEURL = "https://bogoodski2019.azurewebsites.net/";
 
+export const PASSWORD = "Password:";
+
+export const PASSWORDVALIDATION = "Password is required.";
+
 export const RUNLOGNEW = "Run Log (new)";
 
 export const RUNLOGOLD = "Run Log (old)";
 
 export const RUNLOGOLDURL =  "https://bogoodski2019.azurewebsites.net/runlog";
+
+export const SUBMIT = "Submit";
+
+export const USERNAME = "User Name:";
+
+export const USERNAMEVALIDATION = "User name is required."
+
+export const VIEWRUNS = "View Runs";
 
 
 

@@ -1,0 +1,40 @@
+.login-container {
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    flex-direction: column;    
+}
+
+.login-box {
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 5%;  
+    max-width: 300px;
+    margin-bottom: 5%;
+    display: flex; 
+    align-items: center;
+    justify-content: flex-start;    
+}
+
+.login-label  {
+    font-family: 'Saira Condensed', sans-serif; 
+    display: inline-block;  
+    width: 75px; 
+}
+
+.login-btn-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.login-validation {
+    color: red; 
+    font-family: 'Saira Condensed', sans-serif; 
+    font-size: xx-small;
+}
+
+
+

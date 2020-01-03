@@ -1,6 +1,7 @@
 import React from 'react';
 import './buttonRow.css';
 import * as constants from '../../Utils/consts';
+import { Link } from 'react-router-dom';
 
 const ButtonRow = () => {
   
@@ -14,9 +15,11 @@ const ButtonRow = () => {
             {constants.RUNLOGOLD}
           </div>
         </a>
-        <div className="home-btn">
-          {constants.RUNLOGNEW}
-        </div>
+        <Link to="/runlog">
+          <div className="home-btn">
+            {constants.RUNLOGNEW}
+          </div>
+        </Link>        
         <a 
           href={constants.DJBOGOODSKIURL}
           target="_blank"
