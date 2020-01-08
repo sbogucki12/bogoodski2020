@@ -15,7 +15,11 @@ const RunLogLanding = props => {
                 >
                 {constants.ADDRUN}
             </div>
-            <div className="home-btn" style={{"minWidth": "83px"}}>
+            <div 
+                className="home-btn" 
+                style={{"minWidth": "83px"}}
+                onClick={() => props.onViewRuns()}
+                >
                 {constants.VIEWRUNS}
             </div>
         </div>

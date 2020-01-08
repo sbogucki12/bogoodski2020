@@ -20,7 +20,7 @@ const App = () => {
       <div className="item-a">
         <div className="item-a-a">
           <i className="fas fa-running" style={{"padding": "1em"}}></i>          
-            {constants.BOGOODSKIDOTCOM}        
+            {constants.BOGOODSKI}        
         </div>
         <div className="item-a-b">
           <a

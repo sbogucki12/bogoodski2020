@@ -3,7 +3,7 @@ import { useForm } from 'react-hook-form';
 import './logIn.css';
 import * as constants from '../../Utils/consts';
 
-const LogIn = () => {   
+const LogIn = props => {   
     const {register, handleSubmit, errors} = useForm();
     const onSubmit = (data) => console.log(`Data: ${data.userName}`);
 
@@ -32,7 +32,7 @@ const LogIn = () => {
                     </div>
                 </form>
             </div>
-            <div onClick={() => window.history.back()}>
+            <div onClick={() => props.onClose()}>
                 <i className="fas fa-arrow-circle-left"></i>
             </div>
         </div>

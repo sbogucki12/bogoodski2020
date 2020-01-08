@@ -6,6 +6,10 @@ export const BOGOODSKI = "BoGoodSki";
 
 export const BOGOODSKIDOTCOM = "BoGoodSki.com";
 
+export const CLOSE = "Close";
+
+export const COMINGSOON = "Improved runlog currently under construction.";
+
 export const DJBOGOODSKI = "DJ BoGoodSki";
 
 export const DJBOGOODSKIURL = "https://soundcloud.com/sbogucki12";
