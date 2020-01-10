@@ -28,6 +28,11 @@ const ButtonRow = () => {
               {constants.DJBOGOODSKI}
             </div>
           </a>
+          <Link to="/portfolio">
+          <div className="home-btn">
+            Portfolio
+          </div>
+        </Link>        
       </div>
   );
 };

@@ -10,6 +10,7 @@ import './app.css';
 import * as constants from '../Utils/consts';
 import AboutBtn from "./AboutBtn/AboutBtn";
 import RunLogHome from '../RunLog/RunLogHome';
+import Portfolio from '../Portfolio/PortfolioHome';
 
 const App = () => {
 
@@ -42,7 +43,10 @@ const App = () => {
       </div>
       <section className="item-b">
         <div>
-          <Switch> 
+          <Switch>
+            <Route exact path="/portfolio">
+              <Portfolio />
+            </Route>          
             <Route exact path="/runlog">
               <RunLogHome />
             </Route>         
