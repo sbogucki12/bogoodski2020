@@ -1,0 +1,14 @@
+.presentations-container {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.presentations-card-container {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: larger;
+}
