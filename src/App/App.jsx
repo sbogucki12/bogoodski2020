@@ -1,16 +1,9 @@
 import React, { useState } from "react";
-import {
-  Switch,
-  Route, 
-  Link
-} from "react-router-dom";
-import Home from '../Home/Home';
-import About from '../About/About';
+import { Link } from "react-router-dom";
 import './app.css';
 import * as constants from '../Utils/consts';
 import AboutBtn from "./AboutBtn/AboutBtn";
-import RunLogHome from '../RunLog/RunLogHome';
-import Portfolio from '../Portfolio/PortfolioHome';
+import Routing from "../Utils/Routing";
 
 const App = () => {
 
@@ -43,20 +36,7 @@ const App = () => {
       </div>
       <section className="item-b">
         <div>
-          <Switch>
-            <Route exact path="/portfolio">
-              <Portfolio />
-            </Route>          
-            <Route exact path="/runlog">
-              <RunLogHome />
-            </Route>         
-            <Route exact path="/about">
-              <About />
-            </Route>         
-            <Route exact path="/">
-              <Home showMenu={showMenu} setShowMenu={setShowMenu}/>
-            </Route>
-          </Switch>
+          <Routing showMenu={showMenu} setShowMenu={setShowMenu}/>
         </div>
       </section>
       <div className="item-c">

@@ -34,6 +34,8 @@ export const PASSWORD = "Password:";
 
 export const PASSWORDVALIDATION = "Password is required.";
 
+export const PRESENTATIONS = "Presentations";
+
 export const RUNLOGNEW = "Run Log (new)";
 
 export const RUNLOGOLD = "Run Log (old)";

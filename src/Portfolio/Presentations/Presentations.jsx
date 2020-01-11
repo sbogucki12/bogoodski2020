@@ -1,21 +1,19 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import './portfolio.css';
-import * as constants from '../Utils/consts';
+import './presentations.css';
+import * as constants from '../../Utils/consts';
 
-const Portfolio = () => {
+const Presentations = () => {
  
   return (   
       <div className="portfolio-container">
         <div className="portfolio-btn-row">
-          <Link to="/presentations">
-            <div className="home-btn">
-              {constants.PRESENTATIONS}
-            </div>
-          </Link>          
+            <h1>
+                {constants.PRESENTATIONS}
+            </h1>
         </div>
         <div className="portfolio-back-btn-container">
-          <Link to="/">
+          <Link to="/portfolio">
             <div>
                 <i className="fas fa-arrow-circle-left"></i>
             </div>
@@ -25,4 +23,4 @@ const Portfolio = () => {
   );
 };
 
-export default Portfolio;
+export default Presentations;
