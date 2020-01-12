@@ -12,3 +12,53 @@
     flex-direction: column;
     font-size: larger;
 }
+
+#presentations-icon {
+    color: black;
+    font-size: xx-large;
+}
+
+.presentation-card-title {
+    text-align: center;
+    font-family: 'Orbitron', sans-serif; 
+    font-size: medium;
+    padding: 1%;
+}
+
+.presentation-card-caption {
+    text-align: center;
+    font-size: x-small;
+    padding: 1%;
+    font-family: 'Saira Condensed', sans-serif;    
+}
+
+.presentation-card-preview {
+    padding: 1%;
+}
+
+.presentations-preview-btn {
+    border: 2px solid black;
+    border-radius: 5px;   
+    margin: 2px;
+    padding: 2px 2px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: x-small;
+    cursor: pointer;
+    font-family: 'Saira Condensed', sans-serif;
+    color: black;    
+    min-width: 101px;
+}
+
+.presentations-preview-btn:hover {
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(255, 255, 255, 0.24);
+}
+
+dialog {
+    border: none;
+}
+
+.presentation-card-bottom {
+    padding: 1%;
+}
