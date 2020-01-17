@@ -38,6 +38,8 @@ export const PRESENTATIONS = "Presentations";
 
 export const PREVIEW = "Preview";
 
+export const RESUME = "Resume";
+
 export const RUNLOGNEW = "Run Log (new)";
 
 export const RUNLOGOLD = "Run Log (old)";

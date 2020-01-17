@@ -1,0 +1,11 @@
+.portfolioHome-container {
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.resume-card {
+    padding: 5%;
+}

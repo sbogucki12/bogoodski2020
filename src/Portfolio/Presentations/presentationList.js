@@ -1,7 +1,7 @@
 import techRecs from '../Presentations/images/initialTechRecPPTPreview.jpg';
 import softwareDesign from '../Presentations/images/softwareDesignPPTPreview.jpg';
 
-const prpesentationList = [
+const presentationList = [
     {
         id: 0,
         title: 'Initial Technical Recommendations',
@@ -18,4 +18,4 @@ const prpesentationList = [
     }
 ];
 
-export default prpesentationList;
+export default presentationList;

@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './portfolio.css';
-import * as constants from '../Utils/consts';
+import PortfolioBtnRow from './PortfolioBtnRow';
 
 const Portfolio = () => {
  
@@ -9,11 +9,7 @@ const Portfolio = () => {
       <div className="portfolio-container">
         <div className="portfolio-btn-row">
           <br />
-          <Link to="/presentations">
-            <div className="home-btn">
-              {constants.PRESENTATIONS}
-            </div>
-          </Link>          
+          <PortfolioBtnRow />
         </div>
         <div className="portfolio-back-btn-container">
           <br />

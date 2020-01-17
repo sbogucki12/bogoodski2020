@@ -30,6 +30,10 @@
     font-family: 'Saira Condensed', sans-serif;
 }
 
+.about-text-content {
+    text-align: center;
+}
+
 .about-socialMedia-row {
     width: 80%;
     display: grid;   

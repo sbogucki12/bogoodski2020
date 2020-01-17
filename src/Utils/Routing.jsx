@@ -5,10 +5,14 @@ import About from '../About/About';
 import RunLogHome from '../RunLog/RunLogHome';
 import Portfolio from '../Portfolio/PortfolioHome';
 import Presentations from "../Portfolio/Presentations/Presentations";
+import ResumeHome from "../Portfolio/Resume/ResumeHome";
 
 const Routing = props => (
     <Fragment>
         <Switch>
+            <Route exact path="/resume">
+                <ResumeHome />
+            </Route>
             <Route exact path="/presentations">
                 <Presentations />
             </Route>
