@@ -9,3 +9,12 @@
 .resume-card {
     padding: 5%;
 }
+
+.resume-card-position {
+    font-family: 'Orbitron', sans-serif; 
+}
+
+.resume-card-content {
+    font-family: 'Saira Condensed', sans-serif;
+}
+

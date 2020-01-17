@@ -1,44 +1,48 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import './resume.css';
 import resumeContent from './resumeContent';
+import ResumeCard from './ResumeCard';
 
 const ResumeHome = () => {
 
+    const [ resumeContentNumber, setResumeContentNumber] = useState(0);
+
+    const onClickNext = () => {
+        let index = resumeContentNumber + 1;
+
+        if(resumeContent[resumeContentNumber].next === false)
+        {
+            index = 0;
+        }
+        setResumeContentNumber(index);
+    }
+
     let nextBtn = <div>
-                        <div className="presentations-preview-btn">
+                        <div className="presentations-preview-btn" onClick={onClickNext}>
                             Next
                         </div>
                     </div>;
 
-    if (resumeContent[0].next === false)
+    if (resumeContent[resumeContentNumber].next === false)
     {
-        nextBtn = null;
+        nextBtn = <div>
+                    <div className="presentations-preview-btn" onClick={onClickNext}>
+                        Beginning
+                    </div>
+                </div>
     }
  
-  return (   
-      <div className="portfolioHome-container">
-        <div className="resume-card">
-            <h1>
-                {resumeContent[0].position}
-            </h1>
-            <h2>
-                {resumeContent[0].dates}
-            </h2>
-            <h3>
-                {resumeContent[0].company}
-            </h3>
-            <p>
-                {resumeContent[0].summary}
-            </p>
+    return (   
+        <div className="portfolioHome-container">
+            <ResumeCard resumeContentNumber={resumeContentNumber}/>
+            {nextBtn}
+            <div>
+                <Link to='/portfolio' style={{"color": "black"}}>
+                    <i className="fas fa-times-circle"></i>
+                </Link>
+            </div>
         </div>
-        {nextBtn}
-        <div>
-            <Link to='/portfolio' style={{"color": "black"}}>
-                <i className="fas fa-times-circle"></i>
-            </Link>
-        </div>
-      </div>
   );
 };
 

@@ -4,6 +4,17 @@ This is a personal sandbox for me to create my own little playground on the inte
 
 
 
+### Jan. 17, 2020:
+
+<p align="center">
+	<img src="http://g.recordit.co/Uv0pEfx0vC.gif" alt="January 17, 2020">
+</p>
+
+<p>
+	<i>That gif may also be viewed </i> <a href="http://g.recordit.co/Uv0pEfx0vC.gif" target="_blank" rel="noreferrer noopener">HERE</a>.
+</p>
+
+
 
 ### Jan. 15, 2020:
 
