@@ -1,4 +1,3 @@
-import * as constants from '../../Utils/consts';
 import * as resumeText from './resumeText';
 
 const resumeContent = [
