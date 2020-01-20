@@ -18,3 +18,14 @@
     font-family: 'Saira Condensed', sans-serif;
 }
 
+#resume-card-summary {
+    font-size: small;
+    padding-left: 2%;
+    padding-right: 2%;
+    text-align: justify;
+    
+}
+
+.resume-back-btn  {
+    padding: 5%;
+}

@@ -37,7 +37,7 @@ const ResumeHome = () => {
         <div className="portfolioHome-container">
             <ResumeCard resumeContentNumber={resumeContentNumber}/>
             {nextBtn}
-            <div>
+            <div className="resume-back-btn">
                 <Link to='/portfolio' style={{"color": "black"}}>
                     <i className="fas fa-times-circle"></i>
                 </Link>

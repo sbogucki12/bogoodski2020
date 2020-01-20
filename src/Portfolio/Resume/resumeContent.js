@@ -1,21 +1,13 @@
-import React from 'react';
 import * as constants from '../../Utils/consts';
-
-const YONABRIXTEL = <a href="http://yonabrixtel.com/" target="_blank" rel="noreferrer noopener">Yona Brixtel</a>;
-const RCA = <a href="https://redwoodcodeacademy.com/" target="_blank" rel="noreferrer noopener">Redwood Code Academy</a>;
-const FAA = <a href="https://www.faa.gov/" target="_blank" rel="noreferrer noopener">Federal Aviation Administration</a>;
-const LAACO = <a href="https://www.faa.gov/" target="_blank" rel="noreferrer noopener">LA Aircraft Certification Office</a>;
-const USF = <a href="https://www.usf.edu/" target="_blank" rel="noreferrer noopener">University of South Florida</a>;
-const ARMY = <a href="https://www.goarmy.com/careers-and-jobs/browse-career-and-job-categories/combat/fire-support-specialist.html" target="_blank" rel="noreferrer noopener">US Army</a>;
-const DAKOTAPRAIRIE = <a href="https://www.dakota-prairie.k12.nd.us/" target="_blank" rel="noreferrer noopener">Dakota Prairie</a>;
+import * as resumeText from './resumeText';
 
 const resumeContent = [
     {
         id: 0,
         position: 'Systems Engineer',
         dates: 'Aug., 2019 - Present',
-        company: YONABRIXTEL,        
-        summary: constants.LOREMIPSUM,
+        company: resumeText.YONABRIXTEL,        
+        summary: resumeText.SYSENGTEXT,
         location: 'Remote',
         next: true
     },
@@ -23,90 +15,90 @@ const resumeContent = [
         id: 1,
         position: 'Application Developer',
         dates: 'Aug., 2018 - Aug., 2019',
-        company: YONABRIXTEL,
+        company: resumeText.YONABRIXTEL,
         location: 'Remote',        
-        summary: constants.LOREMIPSUM,        
+        summary: resumeText.APPDEV,        
         next: true
     },
     {
         id: 3,
-        position: 'Student',
-        dates: 'Jun., 2017 - Aug., 2018',
-        company: RCA, 
+        position: 'Web Developer',
+        dates: 'Jun., 2017 - Present',
+        company: resumeText.RCA, 
         location: 'Santa Ana, CA.',       
-        summary: constants.LOREMIPSUM,        
+        summary: resumeText.WEBDEV,        
         next: true
     },
     {
         id: 4,
         position: 'Manager',
         dates: 'Jan., 2016 - Jun, 2017',
-        company: LAACO,
+        company: resumeText.LAACO,
         location: 'Long Beach, CA.',        
-        summary: constants.LOREMIPSUM,
+        summary: resumeText.MANAGER,
         next: true
     },
     {
         id: 5,
         position: 'Data Analyst',
         dates: 'Jan., 2014 - Jan., 2016',
-        company: FAA, 
+        company: resumeText.FAA, 
         location: 'Long Beach, CA.',       
-        summary: constants.LOREMIPSUM,
+        summary: resumeText.DATAANALYST,
         next: true
     },
     {
         id: 6,
         position: 'Policy Analyst',
         dates: 'Jan., 2013 - Jan., 2014',
-        company: FAA, 
+        company: resumeText.FAA, 
         location: 'Washington, D.C.',       
-        summary: constants.LOREMIPSUM,
+        summary: resumeText.POLICY,
         next: true
     },
     {
         id: 7,
         position: 'Communications Lead',
         dates: 'Jan., 2012 - Jan., 2013',
-        company: FAA,  
+        company: resumeText.FAA,  
         location: 'Washington, D.C.',      
-        summary: constants.LOREMIPSUM,
+        summary: resumeText.COMMO,
         next: true
     },
     {
         id: 8,
         position: 'Management Assistant',
         dates: 'Sep., 2010 - Jan., 2012',
-        company: FAA,   
+        company: resumeText.FAA,   
         location: 'Washington, D.C.',     
-        summary: constants.LOREMIPSUM,
+        summary: resumeText.ASSISTANT,
         next: true
     },
     {
         id: 9,
         position: 'Student',
         dates: 'Jan., 2006 - May, 2009',
-        company: USF,  
+        company: resumeText.USF,  
         location: 'Tampa, FL.',      
-        summary: constants.LOREMIPSUM,
+        summary: resumeText.USFTEXT,
         next: true
     },
     {
         id: 10,
         position: 'Soldier',
         dates: 'Apr., 2002 - Oct., 2005',
-        company: ARMY,
+        company: resumeText.ARMY,
         location: 'So. Korea, Iraq',        
-        summary: constants.LOREMIPSUM,
+        summary: resumeText.SOLDIER,
         next: true
     },
     {
         id: 11,
         position: 'Student',
         dates: 'Beginning - Apr., 2002',
-        company: DAKOTAPRAIRIE,
+        company: resumeText.DAKOTAPRAIRIE,
         location: 'Petersburg, N.D.',        
-        summary: constants.LOREMIPSUM,
+        summary: resumeText.HIGHSCHOOL,
         next: false
     }
 ];

@@ -20,9 +20,9 @@ const ResumeCard = props => {
             <h6 className="resume-card-content">
                 {resumeContent[index].location}
             </h6>
-            <p className="resume-card-content">
+            <div className="resume-card-content" id="resume-card-summary">
                 {resumeContent[index].summary}
-            </p>
+            </div>
         </div>    
   );
 };
