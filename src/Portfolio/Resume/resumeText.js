@@ -27,6 +27,12 @@ export const SYSENGTEXT = <Fragment>
                 <li>
                     Angular Single Page Applications (previously MVC/Razor);
                 </li>
+                <li>
+                    Leading creation and drafting of service-level data governance policy to support nascent agency-wide Enterprise Information Management system;
+                </li>
+                <li>
+                   Conducting functional analysis, interface connection analysis, drafting and publishing Functional Flow Block Diagrams and N2 Diagrams;
+                </li>
             </ul>
         </li>
         <li>
@@ -59,7 +65,7 @@ export const APPDEV = <Fragment>
             Technologies included:
                 <ul>
                     <li>
-                        JavaScript (React);
+                        JavaScript (React/Redux);
                     </li>
                     <li>
                         JavaScript (Node);

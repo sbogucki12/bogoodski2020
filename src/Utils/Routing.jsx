@@ -25,7 +25,7 @@ const Routing = props => (
             <Route exact path="/about">
                 <About />
             </Route>
-            <Route exact path="/">
+            <Route path="/">
                 <Home showMenu={props.showMenu} setShowMenu={props.setShowMenu} />
             </Route>
         </Switch>
