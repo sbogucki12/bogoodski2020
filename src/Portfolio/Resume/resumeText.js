@@ -149,6 +149,12 @@ export const WEBDEV = <Fragment>
                     Postman;
                 </li>
                 <li>
+                    Webpack;
+                </li>
+                <li>
+                    Babel;
+                </li>
+                <li>
                     npm and NuGet.
                 </li>
             </ul>
@@ -281,10 +287,16 @@ export const SOLDIER = <Fragment>
         Duty stations included: 3ID (Ft. Stewart, GA), 2ID (South Korea, and Ft. Carson, CO);
     </p>
     <p>
+        Highest security clearance obtained: Top Secret/SCI (now expired); 
+    </p>
+    <p>
         Participated in two 1-year combat tours, Iraq, including one year in Ar Ramadi with the 1/503rd Infantry;
     </p>
     <p>
         Promoted to rank of Sergeant, team leader (E-5), in shortest period allowed per policy (24 months);
+    </p>
+    <p>
+        Maintained platoon’s communication and secured cryptologic equipment during combat deployments;  
     </p>
     <p>
         Graduated Primary Leadership Development Course;
