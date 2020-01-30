@@ -1,18 +1,19 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import './newRunLog.css';
-//import * as constants from '../../Utils/consts';
+import * as constants from '../../Utils/consts';
 import MaterialTable from 'material-table';
-import * as runDataJSON from '../../rundata.json';
+import fetchData from '../../Utils/fetchData';
 import CircularProgress from '@material-ui/core/CircularProgress';
-
 
 const NewRunLogTable = () => {
 
-    const [runData, setRunData] = useState(null);
-
-    setTimeout(() => {
-        setRunData(runDataJSON.default)
-    }, 3000);
+    const [runData, setRunData] = useState(null);   
+     
+    useEffect(() => {
+        fetchData(constants.APIRUNDATA_DEV)
+        .then(response => setRunData(response))
+        .catch(error => console.log(error))
+    }, [])
 
     let view = <MaterialTable
         columns={[

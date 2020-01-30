@@ -7,11 +7,11 @@ This is a personal sandbox for me to create my own little playground on the inte
 ### Jan. 30, 2020:
 
 <p align="center">
-	<img src="http://g.recordit.co/rwYpPKRuGR.gif" alt="January 30, 2020">
+	<img src="http://g.recordit.co/D3Nkj1Trxq.gif" alt="January 30, 2020">
 </p>
 
 <p>
-	<i>That gif may also be viewed </i> <a href="http://g.recordit.co/rwYpPKRuGR.gif" target="_blank" rel="noreferrer noopener">HERE</a>.
+	<i>That gif may also be viewed </i> <a href="http://g.recordit.co/D3Nkj1Trxq.gif" target="_blank" rel="noreferrer noopener">HERE</a>.
 </p>
 
 

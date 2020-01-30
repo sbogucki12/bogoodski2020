@@ -2,6 +2,8 @@ export const ABOUT = "About";
 
 export const ADDRUN = "Add Run";
 
+export const APIRUNDATA_DEV = 'https://localhost:44302/api/runlog';
+
 export const BOGOODSKI = "BoGoodSki";
 
 export const BOGOODSKIDOTCOM = "BoGoodSki.com";
