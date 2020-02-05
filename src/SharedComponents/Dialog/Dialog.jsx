@@ -2,7 +2,6 @@ import React from 'react';
 import './dialog.css';
 import * as constants from '../../Utils/consts';
 
-
 const Dialog = props => {   
     
     return (

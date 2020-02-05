@@ -1,10 +1,10 @@
 import React, { Fragment, useState } from 'react';
 import './runLog.css';
-//import * as constants from '../Utils/consts';
+import * as constants from '../Utils/consts';
 import RunLogLanding from './RunLogLanding';
 import LogIn from '../SharedComponents/LogIn/LogIn';
-//import Dialog from '../SharedComponents/Dialog/Dialog';
-import NewRunLog from './NewRunLog/NewRunLogTable';
+import Dialog from '../SharedComponents/Dialog/Dialog';
+//import NewRunLog from './NewRunLog/NewRunLogTable';
 
 const RunLogHome = () => {
     const onAddRun = () => {
@@ -33,8 +33,8 @@ const RunLogHome = () => {
     if(componentToDisplay === "dialog")
     {
         displayedComponent = 
-            //<Dialog onClose={onClose} dialogContent={constants.COMINGSOON} />
-            <NewRunLog />
+            <Dialog onClose={onClose} dialogContent={constants.COMINGSOON} />
+            //<NewRunLog />
     }
 
     return (

@@ -29,10 +29,15 @@ const ButtonRow = () => {
             </div>
           </a>
           <Link to="/portfolio">
-          <div className="home-btn">
-            Portfolio
-          </div>
-        </Link>        
+            <div className="home-btn">
+              Portfolio
+            </div>
+          </Link>
+          <Link to="/blog">
+            <div className="home-btn">
+              {constants.BLOG}
+            </div>
+          </Link>                
       </div>
   );
 };
