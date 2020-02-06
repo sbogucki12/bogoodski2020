@@ -5,15 +5,24 @@ const MyStoryHomeContent = props => {
 
     return (
         <div className="myStoryHomeContent-container">
-            <h1>
+            <div className="myStoryContent-title">
                 {constants.MYSTORY}
-            </h1>
-            <div className="home-btn" onClick={() => props.setShowDialog(true)}>
-                Summary
             </div>
-            <p className="myStoryHomeContent-body">
-                {constants.LOREMIPSUM}
-            </p>
+            <div className="myStoryContent-subTitle">
+                February 6, 2020
+            </div>
+            <div 
+                className="home-btn" 
+                onClick={() => props.setShowDialog(true)}
+                id="myStorySummary-btn">
+                {constants.WHYREADTHIS}
+            </div>
+            <div className="myStoryContent-surface">
+                <div className="myStoryHomeContent-body">
+                    {constants.LOREMIPSUM}
+                </div>
+            </div>
+            
             <div 
                 onClick={() => props.setScreenToDisplay("home")} 
                 id="myStoryHome-back-btn">

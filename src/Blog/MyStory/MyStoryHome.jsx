@@ -17,7 +17,7 @@ const MyStoryHome = props => {
                         setScreenToDisplay={props.setScreenToDisplay}/>
                 }
             </div>              
-            <div>
+            <div style={{"margin": "10px"}}>
                 {showDialog ? 
                     dialog = <Dialog 
                         onClose={() => setShowDialog(false)}

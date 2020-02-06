@@ -62,6 +62,8 @@ export const USERNAMEVALIDATION = "User name is required."
 
 export const VIEWRUNS = "View Runs";
 
+export const WHYREADTHIS = "Why Read This?";
+
 
 
 
