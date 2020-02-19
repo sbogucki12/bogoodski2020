@@ -33,11 +33,11 @@ const ButtonRow = () => {
               Portfolio
             </div>
           </Link>
-          <Link to="/blog">
+      {/*  <Link to="/blog">
             <div className="home-btn">
               {constants.BLOG}
             </div>
-          </Link>                
+          </Link>                 */}
       </div>
   );
 };

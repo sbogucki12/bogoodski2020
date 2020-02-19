@@ -6,14 +6,14 @@ import RunLogHome from '../RunLog/RunLogHome';
 import Portfolio from '../Portfolio/PortfolioHome';
 import Presentations from "../Portfolio/Presentations/Presentations";
 import ResumeHome from "../Portfolio/Resume/ResumeHome";
-import BlogHome from "../Blog/BlogHome";
+//import BlogHome from "../Blog/BlogHome";
 
 const Routing = props => (
     <Fragment>
         <Switch>
-            <Route exact path="/blog">
+            {/* <Route exact path="/blog">
                 <BlogHome />
-            </Route>
+            </Route> */}
             <Route exact path="/resume">
                 <ResumeHome />
             </Route>
