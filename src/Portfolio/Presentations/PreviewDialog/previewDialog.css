@@ -3,10 +3,13 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    background: rgba(211, 211, 211, 0.329);
+    padding-top: 1%;
+    padding-bottom: 1%;
 }
 
 .presentation-preview-img {    
-    height: 250px;
+    height: 100%;
     padding-bottom: 5px;
     width: 80%;
 }
