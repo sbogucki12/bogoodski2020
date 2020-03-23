@@ -1,6 +1,7 @@
 import techRecs from '../Presentations/images/initialTechRecPPTPreview.jpg';
 import softwareDesign from '../Presentations/images/softwareDesignPPTPreview.jpg';
 import ffbdPreview from '../Presentations/images/ffbdPreview.jpg';
+import sysArch from '../Presentations/images/sysArch.jpg';
 
 const presentationList = [
     {
@@ -23,7 +24,15 @@ const presentationList = [
         caption: 'Diagram outlining high-level functionality of prototype. (No proprietary information.)', 
         previewImage: ffbdPreview,
         link: 'files/ffbd.pdf'
+    }, 
+    {
+        id: 3, 
+        title: 'System Architecture',
+        caption: 'Diagram outlining high-level architecture of an app to be developed. (No proprietary information.)', 
+        previewImage: sysArch,
+        link: 'files/SystemArch.pdf'
     }
+
 ];
 
 export default presentationList;
